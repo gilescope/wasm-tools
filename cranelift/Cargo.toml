@@ -27,9 +27,6 @@ cranelift-filetests = { path = "filetests", version = "0.73.0" }
 cranelift-module = { path = "module", version = "0.76.0" }
 cranelift-object = { path = "object", version = "0.76.0" }
 cranelift-jit = { path = "jit", version = "0.76.0" }
-cranelift-preopt = { path = "preopt", version = "0.76.0" }
-cranelift = { path = "umbrella", version = "0.76.0" }
-cranelift-fuzzgen = { path = "fuzzgen", version = "0.75.0" }
 filecheck = "0.5.0"
 log = "0.4.8"
 termcolor = "1.1.2"

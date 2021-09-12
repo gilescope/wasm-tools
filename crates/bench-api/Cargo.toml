@@ -24,9 +24,6 @@ wasmtime-wasi-nn = { path = "../wasi-nn", optional = true }
 wasi-cap-std-sync = { path = "../wasi-common/cap-std-sync" }
 cap-std = "0.19.0"
 
-[dev-dependencies]
-wat = "1.0"
-
 [features]
 default = ["shuffling-allocator"]
 wasi-crypto = ["wasmtime-wasi-crypto"]

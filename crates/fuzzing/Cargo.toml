@@ -13,7 +13,6 @@ arbitrary = { version = "1.0.0", features = ["derive"] }
 env_logger = "0.8.1"
 log = "0.4.8"
 rayon = "1.2.1"
-wasmparser = "0.80"
 wasmprinter = "0.2.28"
 wasmtime = { path = "../wasmtime" }
 wasmtime-wast = { path = "../wast" }
@@ -28,9 +27,6 @@ wasmi = "0.7.0"
 # and don't depend on this on Windows.
 [target.'cfg(not(windows))'.dependencies]
 rusty_v8 = "0.27"
-
-[dev-dependencies]
-wat = "1.0.37"
 
 # We only build the library containing the OCaml spec interpreter if the OCaml
 # toolchain is available--which is assumed here to be the case when fuzzing.

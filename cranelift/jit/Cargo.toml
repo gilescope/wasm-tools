@@ -31,7 +31,6 @@ default = []
 [dev-dependencies]
 cranelift = { path = "../umbrella", version = "0.76.0" }
 cranelift-frontend = { path = "../frontend", version = "0.76.0" }
-cranelift-entity = { path = "../entity", version = "0.76.0" }
 
 [badges]
 maintenance = { status = "experimental" }
